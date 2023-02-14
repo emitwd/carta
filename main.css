@@ -32,11 +32,12 @@ html, body{
 }
 
 .container{
-    height: 100vh;
+    height: 100%;
     background-color: rgb(255, 217, 217);
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .card{
